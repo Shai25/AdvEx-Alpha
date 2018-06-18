@@ -10,9 +10,9 @@ queue_url = resp['QueueUrl']
 
 
 SAMPLE_JOB = {
-    'submission_id': 1,
-    's3_model_key': 'model.h5',
-    's3_index_key': 'index.json'
+	'submission_id': 1,
+	's3_model_key': 'model.h5',
+	's3_index_key': 'index.json'
 }
 
 

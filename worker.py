@@ -13,39 +13,39 @@ queue_url = resp['QueueUrl']
 
 
 SAMPLE_FEEDBACK = {
-    "robustness": "9",
-    "rating": "Good",
-    "details": {
-        "original_accuracy": "98.55%",
-        "attack_results": [
-            {
-                "attack_method": "FGSM",
-                "accuracy": "80.05%",
-                "confidence": "95%"
-            },
-            {
-                "attack_method": "Basic Iterative Method",
-                "accuracy": "92.10%",
-                "confidence": "91%"
-            },
-            {
-                "attack_method": "Carlini Wagner",
-                "accuracy": "94.10%",
-                "confidence": "93%"
-            },
-            {
-                "attack_method": "Momentum Iterative Method",
-                "accuracy": "94.10%",
-                "confidence": "93.7%"
-            },
-            {
-                "attack_method": "DeepFool",
-                "accuracy": "90.10%",
-                "confidence": "89%"
-            }
-        ]
-    },
-    "suggestion": "Your model can be made more robust by training it with some of the adversarial examples which you can download for free from your dashboard."
+	"robustness": "9",
+	"rating": "Good",
+	"details": {
+		"original_accuracy": "98.55%",
+		"attack_results": [
+			{
+				"attack_method": "FGSM",
+				"accuracy": "80.05%",
+				"confidence": "95%"
+			},
+			{
+				"attack_method": "Basic Iterative Method",
+				"accuracy": "92.10%",
+				"confidence": "91%"
+			},
+			{
+				"attack_method": "Carlini Wagner",
+				"accuracy": "94.10%",
+				"confidence": "93%"
+			},
+			{
+				"attack_method": "Momentum Iterative Method",
+				"accuracy": "94.10%",
+				"confidence": "93.7%"
+			},
+			{
+				"attack_method": "DeepFool",
+				"accuracy": "90.10%",
+				"confidence": "89%"
+			}
+		]
+	},
+	"suggestion": "Your model can be made more robust by training it with some of the adversarial examples which you can download for free from your dashboard."
 }
 
 

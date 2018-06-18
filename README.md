@@ -11,3 +11,7 @@ Alpha version of [AdvEx](https://github.com/dnc1994/AdvEx), which validates the 
 5. Start mock worker with `python worker.py`.
 6. Send message with `python web_server.py`.
 7. Run `python db.py test` again to see that the feedback has been updated. Also you should be able to observe that model and index files are downloaded to `tmp/`.
+
+## Notebooks
+
+`notebooks/` includes several Jupyter notebooks that give example of interacting with AWS resources like S3, SQS and RDS.
